@@ -101,7 +101,7 @@ performTemporalCharacterization <- function(
 {
 
 	# Minimum number of months of data to perform temporal characterization
-	minMonths <- 3 
+	minMonths <- 1 
 	
 	# Pull temporal data from Achilles and get list of unique concept_ids
 	temporalData <- Achilles::getTemporalData(connectionDetails,cdmDatabaseSchema,resultsDatabaseSchema,analysisIds,conceptId)
