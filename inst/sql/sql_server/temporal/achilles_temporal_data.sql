@@ -41,4 +41,4 @@ select num.db_name,
   from num
   join @results_schema.achilles_results denom
     on num.stratum_2 = denom.stratum_1 and denom.analysis_id = 117
- where num.total >= 3;
+ where num.total >= 1;
